@@ -1,0 +1,3 @@
+# this is Helm values file which configures deployment. All the secrets should be
+# put into appropriate secrets.yaml file. Convention is to keep files in separate
+# directories, one per each environment e.g. staging, production, qa, etc.

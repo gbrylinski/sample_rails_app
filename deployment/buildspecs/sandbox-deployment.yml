@@ -6,8 +6,8 @@ phases:
       ruby: 2.7
     commands:
       - pwd
-      - echo "Deploying to STAGING"
-      - cat docker-image-to-deploy.txt
+      - echo "Deploying to SANDBOX"
+      - cat deployment/docker-image-to-deploy.txt
 
   build:
     commands:
